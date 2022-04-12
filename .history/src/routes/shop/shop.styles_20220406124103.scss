@@ -1,0 +1,13 @@
+.products-container {
+  display: grid;
+  padding-bottom: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 10px;
+  row-gap: 50px;
+}
+
+.title {
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}

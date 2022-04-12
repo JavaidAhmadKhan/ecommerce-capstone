@@ -1,0 +1,16 @@
+const FormInput = ({displayName, value}) => {
+  return (
+    <div>
+      <label>Display Name</label>
+      <input
+        type="text"
+        required
+        onChange={handleChange}
+        name="displayName"
+        value={displayName}
+      />
+    </div>
+  );
+};
+
+export default FormInput;

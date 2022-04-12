@@ -1,0 +1,36 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: rgba(255, 255, 0.5);
+  box-shadow: rgb(0 0 0 / 5%) 0px 4px 12px 0px;
+  z-index: 999;
+
+  .logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+  }
+
+  .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: flex-end;
+    text-transform: uppercase;
+
+    .nav-link {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
