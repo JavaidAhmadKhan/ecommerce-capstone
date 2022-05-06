@@ -10,6 +10,8 @@
     display: -ms-grid;
     display: grid;
     width: 100%;
-    margin-bottom: 20px;
+    
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
   }
 }
