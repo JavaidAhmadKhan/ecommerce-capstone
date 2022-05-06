@@ -10,6 +10,12 @@
   .buttons-container {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 600px) {
+      .buttons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
   }
 }
 

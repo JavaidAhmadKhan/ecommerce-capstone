@@ -10,12 +10,22 @@
   .buttons-container {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 600px) {
+      .buttons-container {
+        justify-content: space-around;
+      }
+    }
   }
+
+  
 }
+
+
 
 @media screen and (max-width: 600px) {
   .sign-in-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 }

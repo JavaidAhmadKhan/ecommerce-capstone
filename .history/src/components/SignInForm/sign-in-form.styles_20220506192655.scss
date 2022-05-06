@@ -3,6 +3,12 @@
   flex-direction: column;
   width: 380px;
 
+  @media screen and (max-width: 600px) {
+    .sign-in-container {
+      width: 300px;
+    }
+  }
+
   h2 {
     margin: 10px 0;
   }
@@ -10,12 +16,5 @@
   .buttons-container {
     display: flex;
     justify-content: space-between;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .sign-in-container {
-    width: 90%;
-    margin: 0 auto;
   }
 }
