@@ -49,6 +49,6 @@
 @media screen and (max-width: 600px) {
   .button-container {
     display: grid;
-    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
 }

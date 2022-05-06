@@ -1,6 +1,6 @@
 .sign-in-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 380px;
 
   h2 {
@@ -11,18 +11,11 @@
     display: flex;
     justify-content: space-between;
   }
-
-  @media screen and (max-width: 600px) {
-    .buttons-container {
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
 }
 
 @media screen and (max-width: 600px) {
   .sign-in-container {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
   }
 }
