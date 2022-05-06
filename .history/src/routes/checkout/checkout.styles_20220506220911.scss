@@ -29,11 +29,6 @@
     margin-left: auto;
     font-size: 36px;
   }
-  @media only screen and (max-width: 450px) {
-    .total {
-      font-size: 22px;
-    }
-  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -45,5 +40,11 @@
 @media only screen and (max-width: 450px) {
   .checkout-header {
     font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .total {
+    font-size: 16px;
   }
 }

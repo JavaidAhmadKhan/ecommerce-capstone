@@ -50,7 +50,6 @@
       cursor: pointer;
       color: #e07e77;
     }
-
     .arrow-right {
       cursor: pointer;
       color: #58a374;
@@ -64,9 +63,10 @@
     padding-left: 12px;
     cursor: pointer;
     color: #e07e77;
+    
   }
   @media screen and (max-width: 450px) {
-    .remove-button {
+    .remove-button  {
       padding-right: 12px;
     }
   }

@@ -59,6 +59,11 @@
       margin: 0 10px;
     }
   }
+  @media screen and (max-width: 450px) {
+    .arrow-left {
+      margin: 0;
+    }
+  }
 
   .remove-button {
     padding-left: 12px;

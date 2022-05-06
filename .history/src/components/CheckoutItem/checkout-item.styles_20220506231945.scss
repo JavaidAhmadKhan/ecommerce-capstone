@@ -50,6 +50,11 @@
       cursor: pointer;
       color: #e07e77;
     }
+    @media screen and (max-width: 450px) {
+      .arrow-left {
+        margin: 0;
+      }
+    }
 
     .arrow-right {
       cursor: pointer;
