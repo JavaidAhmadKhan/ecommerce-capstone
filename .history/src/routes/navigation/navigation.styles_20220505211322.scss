@@ -4,7 +4,6 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  position: -webkit-sticky;
   position: sticky;
   top: 0px;
   left: 0px;
@@ -17,12 +16,6 @@
     height: 100%;
     width: 70px;
     padding: 25px;
-  }
-
-  @media screen and (max-width: 600px) {
-    .logo-container {
-      padding: 15px;
-    }
   }
 
   .nav-links-container {
@@ -42,14 +35,7 @@
   }
   @media screen and (max-width: 600px) {
     .nav-links-container {
-      font-size: 14px;
-      font-weight: bold;
+      font-size: 12px;
     }
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .navigation {
-    width: 100%;
   }
 }

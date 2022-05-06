@@ -40,7 +40,7 @@ const Navigation = () => {
               Sign In
             </Link>
           )}
-          <CartIcon />
+          {/* <CartIcon /> */}
         </div>
         {isCartOpen && <CartDropdown />}
       </div>
