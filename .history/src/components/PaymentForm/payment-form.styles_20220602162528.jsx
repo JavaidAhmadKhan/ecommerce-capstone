@@ -8,7 +8,7 @@ export const PaymentFormContainer = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   min-height: 100px;
   border-bottom: 1px solid darkgrey;

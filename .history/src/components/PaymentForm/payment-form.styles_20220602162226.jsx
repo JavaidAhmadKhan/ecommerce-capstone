@@ -15,7 +15,7 @@ export const PaymentFormContainer = styled.div`
   padding: 15px 0;
   box-shadow: 5px 5px 10px 5px rgb(0 0 0 / 20%);
   border-radius: 10px;
-  margin: 20px;
+  margin-bottom: 10px;
 `;
 
 export const FormContainer = styled.form`
