@@ -8,7 +8,7 @@ import { selectCurrentUser } from "../../store/user/user.selector";
 import { FormContainer } from "./payment-form.styles";
 import Button, { BUTTON_TYPE_CLASSES } from "../Button/Button";
 
-import { PaymentFormContainer } from "./payment-form.styles";
+import { PaymentButton, PaymentFormContainer } from "./payment-form.styles";
 
 const PaymentForm = () => {
   const stripe = useStripe();
@@ -69,7 +69,6 @@ const PaymentForm = () => {
             alignItems: "center",
             marginTop: "30px",
             marginLeft: "auto",
-            border: "none",
           }}
           buttonType={BUTTON_TYPE_CLASSES.inverted}
           isLoading={isProcessingPayment}
