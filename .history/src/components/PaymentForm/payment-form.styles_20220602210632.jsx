@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../Button/Button";
 
 export const PaymentFormContainer = styled.div`
-  height: 300px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,7 +18,7 @@ export const PaymentFormContainer = styled.div`
   margin: 20px;
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 150px;
   }
 `;
 
@@ -32,11 +32,11 @@ export const FormContainer = styled.form`
   }
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 550px;
     min-width: 250px;
 
     h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
     }
   }

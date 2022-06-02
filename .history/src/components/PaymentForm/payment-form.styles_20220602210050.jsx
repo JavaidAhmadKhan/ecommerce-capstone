@@ -18,7 +18,7 @@ export const PaymentFormContainer = styled.div`
   margin: 20px;
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 150px;
   }
 `;
 
@@ -32,11 +32,11 @@ export const FormContainer = styled.form`
   }
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 60px;
     min-width: 250px;
 
     h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
     }
   }

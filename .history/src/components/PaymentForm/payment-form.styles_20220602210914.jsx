@@ -36,7 +36,7 @@ export const FormContainer = styled.form`
     min-width: 250px;
 
     h2 {
-      font-size: 18px;
+      font-size: 16px;
       font-weight: bold;
     }
   }
