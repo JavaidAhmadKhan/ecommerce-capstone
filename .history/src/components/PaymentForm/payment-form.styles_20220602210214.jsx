@@ -18,7 +18,7 @@ export const PaymentFormContainer = styled.div`
   margin: 20px;
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 150px;
   }
 `;
 
@@ -32,7 +32,7 @@ export const FormContainer = styled.form`
   }
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 80px;
     min-width: 250px;
 
     h2 {
@@ -57,7 +57,7 @@ export const PaymentButton = styled(Button)`
   align-items: center;
 
   @media (max-width: 768px) {
-    margin-top: 70px;
+    margin-top: 250px;
     padding: 10px 15px;
   }
 `;

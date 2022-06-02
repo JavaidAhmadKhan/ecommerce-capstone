@@ -32,7 +32,7 @@ export const FormContainer = styled.form`
   }
 
   @media (max-width: 768px) {
-    height: 250px;
+    height: 25  0px;
     min-width: 250px;
 
     h2 {
